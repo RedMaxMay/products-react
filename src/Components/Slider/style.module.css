@@ -1,0 +1,59 @@
+.slider {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  width: 500px;
+  height: 350px;
+}
+
+.slider div {
+  background-color: rgb(239, 239, 239);
+  display: flex;
+}
+
+.slider__img_wrap {
+  display: block;
+  transition: all 1s ease;
+}
+
+.slider img {
+  width: 500px;
+  height: 350px;
+  object-fit: contain;
+}
+
+.slider__btn {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: calc(50% - 25px);
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 0;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 2;
+}
+
+.slider__btn:hover {
+  opacity: 75%;
+}
+
+.slider__btn_right {
+  right: 10px;
+}
+
+.slider__btn_left {
+  left: 10px;
+}
+
+/* 
+  
+  при откртой модалке сделать
+  
+  body {
+    overflow: hidden;
+  } */

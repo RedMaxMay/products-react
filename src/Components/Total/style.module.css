@@ -1,0 +1,15 @@
+.total {
+  grid-column: 1 / -1;
+  background-color: rgb(244, 244, 255);
+  justify-self: stretch;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid rgb(228, 228, 228);
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+span {
+  font-weight: 600;
+  color: red;
+}
